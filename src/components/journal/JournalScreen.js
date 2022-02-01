@@ -7,7 +7,7 @@ export const JournalScreen = () => {
     <Sidebar />
 
     <main>
-        <h1>Main COntent</h1>
+        <h1>Main Content</h1>
 
     </main>
 
