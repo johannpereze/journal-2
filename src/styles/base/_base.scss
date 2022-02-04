@@ -9,6 +9,10 @@ body {
   width: 100vw;
 }
 
+main {
+  width: 100%;
+}
+
 .mt-1 {
   margin-top: 5px;
 }
@@ -26,4 +30,23 @@ body {
 
 .pointer {
   cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $ligth-grey;
+  outline: 2px solid white;
+  outline-offset: -2px;
+  border: 0.1px solid white;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: darken($color: $ligth-grey, $amount: 10);
 }
